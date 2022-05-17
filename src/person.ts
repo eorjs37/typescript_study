@@ -6,7 +6,7 @@ class Person{
     }
 
     sayHello(){
-        return "Hello, " + this.name;
+        return "Hello1, " + this.name;
     }
 }
 

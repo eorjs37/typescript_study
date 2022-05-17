@@ -1,11 +1,12 @@
-"use strict";
-class Person {
-    constructor(name) {
+var Person = /** @class */ (function () {
+    function Person(name) {
         this.name = name;
     }
-    sayHello() {
-        return "Hello, " + this.name;
-    }
-}
-const person = new Person('Lee');
+    Person.prototype.sayHello = function () {
+        return "Hello1, " + this.name;
+    };
+    return Person;
+}());
+var person = new Person('Lee');
 console.log(person.sayHello());
+//# sourceMappingURL=person.js.map
